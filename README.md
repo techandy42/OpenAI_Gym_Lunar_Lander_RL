@@ -1,2 +1,2 @@
-# OpenAI_Gym_RL_Projects
-Collection of RL projects with TensorFlow and OpenAI Gym.
+# OpenAI_Gym_Lunar_Lander_RL
+Lunar Lander agent trained using DQN model on OpenAI Gym Environment.
