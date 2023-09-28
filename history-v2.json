@@ -1,0 +1,39 @@
+{
+    "num_iterations": 20000,
+    "initial_collect_steps": 1000,
+    "collect_steps_per_iteration": 3,
+    "replay_buffer_max_length": 200000,
+    "batch_size": 256,
+    "learning_rate": 0.0001,
+    "log_interval": 200,
+    "num_eval_episodes": 10,
+    "eval_interval": 1000,
+    "fc_layer_params": [
+        100,
+        50
+    ],
+    "returns": [
+        -213.5160675048828,
+        -299.24664306640625,
+        -162.12527465820312,
+        -178.9036407470703,
+        -204.23117065429688,
+        -320.1474609375,
+        -198.48599243164062,
+        -292.14794921875,
+        -179.91128540039062,
+        -110.7490234375,
+        -219.01461791992188,
+        -98.66033172607422,
+        -100.62984466552734,
+        -107.70611572265625,
+        -93.99897766113281,
+        -132.6222686767578,
+        -118.26850891113281,
+        -96.0904541015625,
+        -126.5078125,
+        -126.60152435302734,
+        -127.3942642211914
+    ],
+    "description": "\n- Increased the collect_steps_per_iteration parameter to 3\n- Increased batch_size\n- Added batch normalization layer\n- Goal is to stablize training\n"
+}

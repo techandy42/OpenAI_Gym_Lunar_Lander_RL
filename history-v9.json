@@ -1,0 +1,29 @@
+{
+    "num_iterations": 10000,
+    "initial_collect_steps": 1000,
+    "collect_steps_per_iteration": 1,
+    "replay_buffer_max_length": 200000,
+    "batch_size": 64,
+    "learning_rate": 0.0001,
+    "log_interval": 200,
+    "num_eval_episodes": 10,
+    "eval_interval": 1000,
+    "fc_layer_params": [
+        100,
+        50
+    ],
+    "returns": [
+        -659.2302856445312,
+        -119.70829010009766,
+        -139.2804412841797,
+        -73.18756103515625,
+        217.707763671875,
+        61.255218505859375,
+        -78.98057556152344,
+        57.7569580078125,
+        -224.0669708251953,
+        -224.3450927734375,
+        -217.4869842529297
+    ],
+    "description": "\n- Same as base model v1, but with optimal amount of training epochs\n"
+}
