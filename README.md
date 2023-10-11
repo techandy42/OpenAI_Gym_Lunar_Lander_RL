@@ -6,4 +6,4 @@
 
 > Demo
 
-![Demo GIF](./trained-agent-v9-e4000.mp4)
+![Demo GIF](./trained-agent-v9-e4000.gif)
